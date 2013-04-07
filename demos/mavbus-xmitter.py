@@ -28,7 +28,7 @@ BAUD=115200                        # baud rate for direct usb connection
 MCADDR='239.239.250.1'
 MCPORT=8001
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-sock.setsockopt(socket.IPPROTO_IP, socket.IP_MULTICAST_TTL, 1)
+sock.setsockopt(socket.IPPROTO_IP, socket.IP_MULTICAST_TTL, 3)
 
 
 #-----------------------------------------------------------------------
